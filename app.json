@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Time Reading - by Royal Rockers",
+    "slug": "time-reading",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.jpg",
+        "backgroundColor": "#0F172A"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.royalrockers.timereading"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0F172A",
+      "translucent": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "24b296e4-4372-4412-ae64-07451dfaf002"
+      }
+    }
+  }
+}
